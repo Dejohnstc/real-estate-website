@@ -1,0 +1,481 @@
+@import url('./bootstrap.css');
+
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 0;
+    margin-left: 0;
+    overflow-x: hidden;
+    margin-bottom: 50px;
+}
+.logo {
+    position: relative;
+    height: 10vh;
+    left: 15%;
+
+}
+nav {
+    background-color: black;
+    height: 10vh;
+    width: 100vw;
+
+}
+.sub-nav1 {position: relative;
+    background-color: white;
+    width: 20vw;
+    height: 8vh;
+    top: 50px;
+    left: 15%;
+
+}
+
+li {
+    list-style-type: none;
+}
+.li1 {
+    color: brown;
+}
+a {
+    position: relative;
+    display: flex;
+    text-decoration: none;
+    top: -75px;
+    float: left;
+    padding: 10px;
+    left: 55%;
+    color: white;
+    }
+    .a1 {
+        position: relative;
+        color: black;
+        left: -5%;
+        top: 1px;
+        font-size: 1.5rem;
+
+    }
+.a31 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    left: -35px;
+    color: black;
+    top: -20px;
+    line-height: 10px;
+
+}
+.a32{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    left: -35px;
+    color: black;
+    top: -20px;
+    line-height: 10px;
+}
+.a33{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    left: -35px;
+    color: black;
+    top: -20px;
+    line-height: 10px;
+}
+.bt1 {
+    position: relative;
+    background-color: blue;
+    color: white;
+    border: none;
+    width: 10vw;
+    height:8vh ;
+    border-radius: 10px;
+    top: -78px;
+    left: 55%;
+}
+.bt1:hover {
+    background-color:rgb(77, 247, 77);
+    color:rgb(157, 25, 25);
+    transition: 0.5s ease-in-out;
+}
+.bt3 {
+    position: relative;
+    float: right;
+    width: 12vw;
+    height: 8vh;
+    top: -75px;
+    right: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+}
+.bt3:hover {
+    background-color: black;
+    color: rgb(77, 247, 77);
+    transition: 0.5s ease-in-out;
+}
+.bt4 {
+    position: relative;
+    width: 10vw;
+    height: 6vh;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: blue;
+    top: 60px;
+    left: 110px;
+}
+.bt4:hover {
+    background-color: black;
+    color: rgb(77, 247, 77);
+    transition: 0.5s ease-in-out;
+}
+
+.search-bt {
+    position: relative;
+    background-color: blue;
+    width: 10vw;
+    height: 8vh;
+    border: none;
+    color: white;
+    border-radius: 15px;
+    top: 20px;
+    left: 7vw;
+}
+.search-bt:hover {
+    background-color: black;
+    color: rgb(77, 247, 77);
+    transition: 0.5s ease-in-out;
+}
+.search2 {
+    position: relative;
+    width: 40vw;
+    left: 25%;
+    padding: 15px;
+    top: 60px;
+    border-radius: 15px;
+    border: none;
+}
+.div-1 {
+    position: relative;
+    width: 90%;
+    height: 80vh;
+    background-color: rgb(244, 245, 245);
+    
+}
+.sub-div1 {position: relative;
+    height: 12vh;
+    background-color:white;
+    width: 63%;
+    top: 50px;
+    left: 15%;
+    padding-bottom: 15px;
+
+}
+.sub-div2 {
+    position: relative;
+    background-color: black;
+}
+.sub-div22 {
+    position: relative;
+    background-color: rgba(247, 44, 44, 0.408);
+    width: 12vw;
+    height: 15vh;
+    margin: 20px;
+    float: left;
+    top: 20vh;
+    left: 14%;
+}
+.div-3 {
+    position: relative;
+    
+}
+.sub-div3 {
+    position: relative;
+    background-color: black;
+    top: 70vh;
+    height: 30vh;
+    width: 100%;
+}
+.sub-div33 {
+    position: relative;
+    height: 65vh;
+    width: 25vw;
+    background-color: white;
+    top: 40vh;
+    float: left;
+    margin: 13px;
+    left: 11%;
+    box-shadow: 7px 7px 17px rgba(0, 0, 0, 0.455);
+    border-radius: 10px;
+    }
+.div-4 {
+    height: 120vh;
+    width: 100vw;
+    background-color: rgb(244, 245, 245);
+    margin-top: 200vh;
+}
+.sub-div4 {
+    height: 30vh;
+    width: 25vw;
+    background-color:white;
+    margin: 15px;
+    margin-left: 12%;
+    border-radius: 10px;
+}
+.sub-div41 {
+    position: relative;
+    height: 95vh;
+    width: 25vw;
+    background-color:white;
+    top: -91.5vh;
+    left: 27vw;
+    border-radius: 10px;
+}
+.sub-div42 {
+    position: relative;
+    height: 30vh;
+    width: 25vw;
+    background-color:white;
+    margin: 15px;
+    left: 26vw;
+    border-radius: 10px;
+    top: -98vh;
+}
+.div-5 {
+    position: relative;
+    top: 10vh;
+    height: 60vh;
+    width: 100vw;
+}
+.sub-div5 {
+    position: relative;
+    height: 30vh;
+    width: 40vw;
+    margin: 10px;
+    background-color: white;
+    float: left;
+    top: 5vh;
+    left: 11vw;
+    border-radius: 10px;
+}
+.div-6 {
+    position: relative;
+    height: 43vh;
+    width: 80vw;
+    background-color: rgb(51, 51, 207);
+    border-radius: 10px;
+    left: 12%;
+}
+.div-8{
+    position: relative;
+    height:25vh ;
+    width: 100%;
+    top: 40px;
+}
+.sub-div8 {
+    height: 25vh;
+    width: 15vw;
+    position: relative;
+    margin: 42px;
+    margin-top: -18.5vh;
+    float: left;
+    left: 9%;
+    top: 10vh;
+}
+
+
+.h11 {
+    position: relative;
+    display: flex;
+    top: 50px;
+    left: -14%;
+}
+.h12 {
+    position: relative;
+    top: 150px;
+    text-align: center;
+}
+.h21 {
+    position: relative;
+    left: -65%;
+    top: 50vh;
+
+}
+.h22 {
+   position: relative;
+   top: 40vh;
+   right: -5vw;
+   color: orange;
+   font-size: 1.4rem;
+} .h31 {
+    position: relative;
+    top: -10px;
+    left: 15px;
+    font-size: 1.5rem;
+    color: rgb(54, 52, 52);
+
+}
+h3 {
+    position: relative;
+    top: -15px;
+    left: 15px;
+    color: rgb(54, 52, 52);
+}
+h2 {
+    position: relative;
+    top: -20px;
+    left: 15px;
+    color: orange;
+}
+.h41 {
+    position: relative;
+    top: -10px;
+    font-size: 1.5rem;
+    left: 5px;
+}
+.h5 {
+    text-align: center;
+    color: rgb(51, 51, 207);
+}
+.h6 {
+    text-align: center;
+    color: orange;
+    font-size: 1.5rem;
+    line-height: 10px;
+}
+.h61 {
+    text-align: center;
+    color: rgb(49, 48, 48);
+    font-size: 1.9rem;
+}
+.hd {position: relative;
+    font-size: 1.5rem;
+    top: -25px;
+    left: 3.2vw;
+    color: rgb(66, 63, 63);
+
+}
+.hd1 {
+    position: relative;
+    font-size: 1.5rem;
+    top: -73px;
+    left: 16vw;
+    color: rgb(66, 63, 63);
+}
+.hd2 {
+    position: relative;
+    font-size: 1.5rem;
+    top: -119px;
+    left: 29vw;
+    color: rgb(66, 63, 63);
+}
+.h62 {
+    position: relative;
+    font-size: 1.5rem;
+    color: rgb(66, 63, 63);
+    top: -50px;
+    left: 10vw;
+}
+.h63 {
+    position: relative;
+    font-size: 1.5rem;
+    color: rgb(66, 63, 63);
+    top: -50px;
+    left: 10vw;
+}
+.h7 {
+    position: relative;
+    text-align: center;
+    top: 50px;
+    color: white;
+}
+.p1 {
+    position: relative;
+    left: 15%;
+    top: 40px;
+}
+.p4 {
+    position: relative;
+    top: -10px;
+    left: 5px;
+}
+.p5 {
+    text-align: center;
+    color: rgb(51, 51, 207);
+}
+.p6 {
+    position: relative;
+    top: -50px;
+    color: rgb(66, 63, 63);
+}
+.p7 {
+        position: relative;
+        text-align: center;
+        top: 50px;
+        color: white;
+    }
+.img1 { position: absolute;
+    left: 65%;
+    top: 10vh;
+    width: 26vw;
+    height: 60vh;
+    border-radius: 10px;
+}
+.img2{
+    position: relative;
+    width: 100%;
+    height: 15vh;
+}
+.img3 {
+    height: 40vh;
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.img5 {
+    height: 7vh;
+    width: 7vw;
+    border-radius: 50%;
+}
+.div-img {
+    height: 7vh;
+    width: 7vw;
+}
+.sub-img {
+    height: 95vh;
+    width: 100%;
+    border-radius: 10px;
+}
+.bi-search {
+    position: relative;
+    left: 4.5vw;
+    top: 20px;
+    color: white;
+}  
+.location {
+    position: relative;
+    border: none;
+    left: -185px;
+}
+.property {
+    position: relative;
+    border: none;
+    left: -100px;
+} 
+.price {
+    position: relative;
+    border: none;
+    left: -35px;
+    }
+
+.footer-img {
+    position: relative;
+    height: 10vh;
+    left: 1%;
+    top: 10px;
+    width: 10vw;
+}
